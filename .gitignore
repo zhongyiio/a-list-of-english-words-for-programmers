@@ -106,3 +106,4 @@ venv.bak/
 # Project only
 docs/
 .idea/
+anki/node_modules/
