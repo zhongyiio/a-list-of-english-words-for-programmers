@@ -1,0 +1,4 @@
+BeautifulSoup4==4.9.3
+nltk==3.5
+requests==2.25.1
+genanki~=0.10.1
