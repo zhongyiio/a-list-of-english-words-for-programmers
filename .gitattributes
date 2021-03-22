@@ -1,0 +1,2 @@
+dict/words filter=lfs diff=lfs merge=lfs -text
+dict/stardict.db filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .front {
+            height: 100vh;
+            width: 100%;
+            margin: auto;
+            font-family: "Arial", serif;
+            display: block;
+            font-size: 22px;
+            border-radius: 8px;
+        }
+
+        .back {
+            height: 100vh;
+            width: 100%;
+            margin: auto;
+            font-family: "Arial", serif;
+            display: block;
+            font-size: 22px;
+            border-radius: 8px;
+        }
+
+        .back .word {
+            font-size: 2em;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .back .phonetic {
+            font-size: 0.5em;
+            font-style: italic;
+        }
+
+        .back .translation {
+            font-family: "Fira Code", serif;
+            padding: 5px 30px 5px 30px;
+        }
+
+        .back .definition {
+            padding: 5px 30px 5px 30px;
+        }
+
+        p {
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="frontbg">
+    <div class="front">
+        <div class="word">{{ Word }}</div>
+    </div>
+</div>
+
+<div class=backbg>
+    <div class="back">
+        <div class="word">
+            interface <span class="phonetic">{{ Phonetic }}</span>
+        </div>
+        <div class="translation">
+            {{ Translation }}
+        </div>
+        <div class="definition">
+            {{ Definition }}
+        </div>
+    </div>
+</div>
+</body>
+</html>

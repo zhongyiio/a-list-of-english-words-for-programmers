@@ -23,3 +23,7 @@
 > [Words_(Unix)](https://en.wikipedia.org/wiki/Words_(Unix))
 > [dwyl/english-words](https://github.com/dwyl/english-words)
 > [Frequency_lists#English](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists#English)
+
+### 无用单词
+
+> [](https://www.geeksforgeeks.org/removing-stop-words-nltk-python/)
